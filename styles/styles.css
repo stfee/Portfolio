@@ -1,0 +1,384 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    color: black;
+}
+
+p,
+h1,
+h2,
+.nav_link,
+.header_info_me,
+.skills_name {
+    letter-spacing: -0.03em;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    height: 765px;
+    color: black;
+
+}
+
+.header_container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 765px;
+    background-image: url(../resources/my_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+    min-width: 1400px;
+
+    padding-top: 27px;
+    padding-right: 124px;
+    padding-left: 132px;
+}
+
+.logo_text_wrapper {
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    width: 240px;
+    line-height: 52px;
+    height: 52px;
+    font-size: 42.41px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #1BFF07;
+    background-color: black;
+    letter-spacing: -0.11em;
+
+
+}
+
+.nav_link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 50px;
+    float: right;
+    transition: 0.5s;
+
+}
+
+.nav_link:last-child {
+    margin: 0;
+}
+
+.nav_link:hover {
+    color: #1BFF07;
+
+}
+
+.header_about {
+    position: absolute;
+    top: 334px;
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF
+}
+
+.header_info_me {
+    position: absolute;
+    top: 466px;
+    width: 919px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    color: #1BFF07;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    background-color: black;
+}
+
+.projects {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 150px;
+    padding-right: 124px;
+    padding-left: 132px;
+    padding-bottom: 150px;
+}
+
+.project_title {
+    margin-bottom: 40px;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+
+.project_list {
+    padding-bottom: 80px;
+}
+
+.project {
+    position: relative;
+    margin: 0 auto;
+    width: 1150px;
+    height: 550px;
+}
+
+.project_img {
+    width: 1150px;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 30px 30px 50px 30px #000000;
+    transition: 1s;
+}
+
+.project_img:hover {
+    transform: scale(1.2);
+}
+
+.project_name {
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    font-size: 35px;
+    text-shadow: 1px 1px 5px #000000;
+    color: #FFFFFF;
+
+}
+
+.project_info {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px #000000;
+    color: #FFFFFF;
+}
+
+.project_link {
+    display: block;
+    width: 582px;
+    height: 153px;
+    padding: 56px 85px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 39px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    background: #1BFF07;
+    border: 1px solid #1BFF07;
+    transition: 0.5s;
+}
+
+.project_link:hover {
+    color: #1BFF07;
+    background: #000000;
+    border: 2px solid #1BFF07;
+}
+
+.skills {
+    margin: 0 auto;
+    width: 1400px;
+    padding-right: 124px;
+    padding-left: 132px;
+    padding-bottom: 150px;
+}
+
+.skills_title {
+    font-size: 55px;
+    color: #FFFFFF;
+    padding-bottom: 104px;
+}
+
+.skills_name {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    margin-top: 120px;
+
+
+}
+
+.skills_name.skill_html:first-child {
+    margin: 0;
+}
+
+.skills_name:before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 65px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #1BFF07;
+}
+
+.skills_info {
+    width: 778px;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.skill_html:before {
+    background-image: url(../resources/html_logo.png);
+}
+
+.skill_js:before {
+    background-image: url(../resources/js_logo.png);
+}
+
+.skill_framework:before {
+    background-image: url(../resources/frame_logo.png);
+}
+
+.skill_adaptive:before {
+    background-image: url(../resources/mobile_logo.png);
+}
+
+.services {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 0 125px 150px 125px;
+}
+
+.services_title {
+    color: white;
+    font-size: 35px;
+    width: 403px;
+
+}
+
+.picture_services {
+    width: 1150px;
+    margin-top: 74px;
+}
+
+.border_wrapper {
+    width: 1150px;
+    height: 250px;
+    border-radius: 30px;
+    background: #191C19;
+    padding: 40px;
+
+}
+
+.services_info {
+    font-size: 55px;
+    color: #1BFF07;
+    margin-bottom: 15px;
+
+}
+
+.services_about {
+    font-size: 22px;
+    line-height: 22px;
+    color: white;
+    width: 749px;
+
+}
+
+.contacts {
+    padding-bottom: 150px;
+    color: #000000;
+
+
+}
+
+.background_contacts {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    height: 717px;
+    border-radius: 30px;
+    background: #191C19;
+    background-image: url(../resources/razrab.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+
+}
+
+.contacts_container {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 320px;
+    padding-right: 124px;
+    padding-left: 132px;
+}
+
+.contacts_title {
+    padding-bottom: 28px;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.contact_link {
+    text-decoration: none;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.contact_link:hover {
+    color: #1BFF07;
+}
+
+
+footer {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    background-color: black;
+
+}
+
+div.footer_container {
+    border-radius: 30px 30px 0 0;
+    background-color: #FFFFFF;
+
+}
+
+.footer_wrapper {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 76px;
+    padding-right: 124px;
+    padding-left: 132px;
+    padding-bottom: 15px;
+    border-radius: 30px 30px 0 0;
+
+}
+
+.footer_title {
+    padding-bottom: 66px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.rights {
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.5;
+}
